@@ -1,0 +1,14 @@
+cabal-version:      2.4
+name:               adventofcode2021
+version:            0.1.0.0
+
+synopsis: Advent Of Code 2021
+
+author:             Paul Bedaride
+maintainer:         ptitpoulpe@ptitpoulpe.fr
+
+extra-source-files:
+    CHANGELOG.md
+    README.md
+
+
