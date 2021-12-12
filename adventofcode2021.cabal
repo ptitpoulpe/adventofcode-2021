@@ -103,3 +103,21 @@ executable aoc-05p2
       , adventofcode2021
     hs-source-dirs:   app
     default-language: Haskell2010
+
+executable aoc-06p1
+    main-is:          Day06/Part1.hs
+    build-depends:
+        base ^>=4.13.0.0
+      , split
+      , adventofcode2021
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable aoc-06p2
+    main-is:          Day06/Part2.hs
+    build-depends:
+        base ^>=4.13.0.0
+      , split
+      , adventofcode2021
+    hs-source-dirs:   app
+    default-language: Haskell2010
