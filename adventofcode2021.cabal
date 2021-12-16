@@ -256,3 +256,24 @@ executable aoc-13p2
       , adventofcode2021
     hs-source-dirs:   app
     default-language: Haskell2010
+
+executable aoc-14p1
+    main-is:          Day14/Part1.hs
+    build-depends:
+        base ^>=4.13.0.0
+      , split
+      , containers
+      , adventofcode2021
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable aoc-14p2
+    main-is:          Day14/Part2.hs
+    build-depends:
+        base ^>=4.13.0.0
+      , split
+      , containers
+      , MemoTrie
+      , adventofcode2021
+    hs-source-dirs:   app
+    default-language: Haskell2010
