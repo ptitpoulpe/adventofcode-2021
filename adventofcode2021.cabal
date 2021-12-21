@@ -360,3 +360,24 @@ executable aoc-18p2
       , adventofcode2021
     hs-source-dirs:   app
     default-language: Haskell2010
+
+executable aoc-19p1
+    main-is:          Day19/Part1.hs
+    build-depends:
+        base ^>=4.13.0.0
+      , split
+      , containers
+      , bifunctors
+      , adventofcode2021
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable aoc-19p2
+    main-is:          Day19/Part2.hs
+    build-depends:
+        base ^>=4.13.0.0
+      , split
+      , containers
+      , adventofcode2021
+    hs-source-dirs:   app
+    default-language: Haskell2010
